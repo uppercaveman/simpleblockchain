@@ -1,0 +1,17 @@
+
+#log
+[logs.default.console]
+Enable = true
+Mode = "console"
+Level = "Trace"
+
+[logs.default.file]
+Enable = true
+Mode = "file"
+Level = "Info"
+FileName  = "./log/err.log"
+LogRotate  = true
+MaxLines   = 1000000
+MaxSizeShift = 28
+DailyRotate  = true
+MaxDays     = 7
